@@ -1,13 +1,13 @@
-let numeroIngresado = parseInt(prompt("Ingresar numero para generar tabla"));
-let multiplicacion = 0;
+let numeroIngresado = parseInt(prompt("Ingresar numero a dividir del 1 al 100"));
+let divicion = 0;
 
 console.log("******************************");
-console.log("Tabla del " + numeroIngresado);
+console.log("Resultados de la divicion del " + numeroIngresado + " del 1 al 100");
 console.log("******************************");
-for (let index = 1; index <= 10; index++){
-    multiplicacion = 0;
-    multiplicacion = numeroIngresado * index;
-    console.log(`${numeroIngresado} * ${index} = ${multiplicacion}`);
+for (let dividendo = 1; dividendo <= 100; dividendo++){
+    divicion = 0;
+    divicion = numeroIngresado / dividendo;
+    console.log(`${numeroIngresado} / ${dividendo} = ${divicion}`);
 }
 
 alert("Para visualizar la tabla debe abrir la consola");
